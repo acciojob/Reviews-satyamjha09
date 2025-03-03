@@ -31,7 +31,7 @@ const Review = () => {
         <button className="prev-btn" onClick={prevReview}>&lt;</button>
         <button className="next-btn" onClick={nextReview}>&gt;</button>
       </div>
-      <button className="random-btn" onClick={randomReview}>Surprise Me</button>
+      <button className="random-btn" onClick={randomReview}> surprise me </button>
     </article>
   );
 };
